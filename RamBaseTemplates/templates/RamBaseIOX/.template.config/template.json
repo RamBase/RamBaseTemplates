@@ -1,0 +1,13 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Me",
+    "classifications": [ "RamBase", "C#9" ],
+    "identity": "RamBaseTemplates.IOXProject",
+    "name": "RamBase IOX",
+    "shortName": "rbiox",
+    "tags": {
+      "language": "C#",
+      "type": "project"
+    },
+    "sourceName": "$safeprojectname$"
+  }

@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RamBaseIOXRuntimeUtils" Version="1.0.0" />
+  </ItemGroup>
+
+  <Target Name="CopyCustomContent" AfterTargets="AfterBuild" Condition=" '$(Configuration)' == 'Debug' ">
+		<Copy SourceFiles="TestData/Input.txt" DestinationFolder="$(OutDir)" />
+		<Copy SourceFiles="TestData/IoxData.txt" DestinationFolder="$(OutDir)" />
+		<Copy SourceFiles="TestData/Output.txt" DestinationFolder="$(OutDir)" />
+		<Copy SourceFiles="TestData/Result.txt" DestinationFolder="$(OutDir)" />
+	</Target>
+
+</Project>

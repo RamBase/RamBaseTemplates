@@ -1,0 +1,8 @@
+<TABLE>;IOX
+NO;SYSTEM;DB;SETTINGS
+100021;JHCDEVSYS;TEM-NO;ProductBulkUpdateFieldST,ProductBulkUpdateFieldWEIGHT
+<TABLE>;SETTINGS
+KEY;VALUE
+ProductBulkUpdateFieldST;1
+ProductBulkUpdateFieldWEIGHT;1
+<TABLEEND>
