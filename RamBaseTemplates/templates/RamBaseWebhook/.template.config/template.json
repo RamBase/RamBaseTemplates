@@ -1,0 +1,13 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Me",
+    "classifications": [ "RamBase", "C#9" ],
+    "identity": "RamBaseTemplates.WebhookListener",
+    "name": "RamBase Webhook listener",
+    "shortName": "rbwebhook",
+    "tags": {
+      "language": "C#",
+      "type": "project"
+    },
+    "sourceName": "$safeprojectname$"
+  }

@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <PackageType>Template</PackageType>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>2.0.0</PackageVersion>
     <PackageId>RamBase.Templates</PackageId>
     <Title>RamBase Templates</Title>
     <Authors>hknudsen</Authors>
